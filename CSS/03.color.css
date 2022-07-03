@@ -1,0 +1,58 @@
+/*RGB*/
+#h1{
+    color: rgb(0, 0, 0);
+}
+
+#h2{
+    color: rgb(255, 255, 255);
+}
+#h3{
+    color: rgb(255, 0, 0);
+}
+#h4{
+    color: rgb(0, 255, 0);
+}
+#h5{
+    color: rgb(0, 0, 255);
+}
+
+
+/*RGBA*/
+#h6{
+    color: RGBA(0, 0, 0, 0.1);
+}
+
+#h7{
+    color: RGBA(255, 255, 255, 0.2);
+}
+#h8{
+    color: RGBA(255, 0, 0, 0.3);
+}
+#h9{
+    color: RGBA(0, 255, 0,0.5);
+}
+#h10{
+    color: RGBA(0, 0, 255,0.7);
+}
+
+
+/*HEX*/
+#h11{
+    color: #ff0000;
+}
+
+#h12{
+    color: #000000;
+}
+#h13{
+    color: #ffffff;
+}
+
+/*HSL*/
+#h14{
+    color: hsl(0, 100%, 50%);
+}
+/*HSLA*/
+#h15{
+    color: hsl(0, 100%, 50%, 0.5);
+}

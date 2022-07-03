@@ -1,0 +1,16 @@
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: salmon;
+    margin: 50px;
+    transition-property: width,  background-color;
+    transition-duration: 2s;
+    /* transition-delay: 0.2s; */
+    transition-timing-function: step-end;
+}
+
+#div1:hover{
+    width: 500px;
+    background-color: brown;
+    
+}

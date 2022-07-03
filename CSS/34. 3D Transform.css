@@ -1,0 +1,13 @@
+#cover{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 120px;
+}
+
+#content{
+    background-color:rgb(241, 65, 65);
+    height: 200px;
+    width: 200px;
+    transform: perspective(300px) rotate3d(50, 0 , 50, 20deg);
+}

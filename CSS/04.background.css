@@ -1,0 +1,15 @@
+body{
+
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5b4cd70a1137a6abf12c5c2a/1624578349260-MUCBERV87PWC4GVWZTL1/STN_Marketing_CaseStudy_Thumbnails_TheTomorrowWar+%281%29.png?format=1500w");
+    background-color: rgb(255, 127, 127);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: rgb(255, 255, 255);
+}
+
+div{
+    background-color: rgba(0,0,0,0.9);
+    padding: 5%;
+    margin: 0% 5%;
+}

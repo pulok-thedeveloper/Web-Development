@@ -1,0 +1,15 @@
+#p1{
+    background-color: aqua;
+    border: 5px solid red;
+    width: 500px;
+    height: 500px;
+}
+
+#p2{
+    background-color: rgb(222, 101, 233);
+    border: 5px solid rgb(75, 218, 70);
+    min-width: 600px;
+    max-width: 1000px;
+    min-height: 100px;
+    max-height: 500px;
+}

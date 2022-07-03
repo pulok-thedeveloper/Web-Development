@@ -1,0 +1,40 @@
+div{
+    background-image: url('https://image.shutterstock.com/image-vector/saarc-organization-national-flags-world-260nw-1416667862.jpg');
+    height: 80px;
+    width: 100px;
+    background-repeat: no-repeat;
+    
+}
+
+#Sri{
+    background-position: -20px -80px;
+}
+
+#Pak{
+    background-position: -112px -80px;
+}
+
+#Nep{
+    background-position: -190px -80px;
+}
+
+#Bhu{
+    background-position: -280px -80px;
+}
+
+#Ban{
+    background-position: -17px -168px;
+}
+
+#Mal{
+    background-position: -105px -168px;
+}
+
+#Afg{
+    background-position: -190px -168px;
+}
+
+#Ind{
+    background-position: -280px -168px;
+}
+

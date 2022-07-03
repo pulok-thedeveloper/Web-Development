@@ -1,0 +1,30 @@
+@font-face{
+    font-family: Akro;
+    src: url('Fonts/Akronim-Regular.ttf');
+}
+
+#p1{
+    /* font-style: italic;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+    font: italic small-caps 700 30px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#p2{
+    font-family: Akro;
+    font-size: 5vw;
+    border: 3px solid rgb(206, 75, 75);
+    width: 70vw;
+    height: 80vh;
+}
+
+#parent{
+    font-size: 30px;
+}
+
+#child{
+    font-size: 2em;
+}

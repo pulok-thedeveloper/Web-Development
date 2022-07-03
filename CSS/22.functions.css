@@ -1,0 +1,27 @@
+:root{
+    --primary-bg-color: rgb(95, 255, 80);
+    --btn-bg-color: teal;
+    --btn-text-color: white;
+    --primary-text-color: black;
+}
+
+#fun{
+    background-color: var(--primary-bg-color);
+    height: 250px;
+    width: calc(100% - 200px);
+}
+div{
+    background-color: var(--primary-bg-color);
+    height: 80px;
+    width: 200px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 180px;
+    border-radius: 5px;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+}

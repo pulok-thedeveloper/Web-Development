@@ -1,0 +1,12 @@
+ul{
+    background-color: salmon;
+    list-style-type: none;
+    overflow: auto;
+}
+
+li{
+    color: white;
+    padding: 10px 15px;
+    float: left;
+    
+}

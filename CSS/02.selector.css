@@ -1,0 +1,18 @@
+/*Element*/
+p{
+    color: red;
+}
+
+/*Class*/
+.p2{
+    color: blue;
+}
+
+.para{
+    font-size: 20px;
+}
+
+/*Id*/
+#para{
+    color: yellow;
+}

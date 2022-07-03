@@ -1,0 +1,102 @@
+.flex-container1{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-child1{
+    background-color: wheat;
+    margin: 20px;
+    padding: 20px;
+    /* display: inline-block; */
+}
+
+
+.flex-container2{
+    background-color: wheat;
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
+    height: 400px;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+.flex-child2{
+    background-color: salmon;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.flex-container3{
+    background-color: rgb(76, 223, 96);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+}
+
+.flex-child3{
+    background-color: brown;
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+
+.flex-container4{
+    background-color: coral;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-child4{
+    background-color: crimson;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+
+.flex-container5{
+    background-color: rgb(86, 255, 80);
+    display: flex;
+    height: 400px;
+    
+}
+
+.flex-child5{
+    background-color: crimson;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+#one{
+    flex-grow: 4;
+    order: 2;
+    align-self: center;
+}
+
+#two{
+    flex-grow: 1;
+    order: 3;
+    align-self: flex-start;
+}
+
+#three{
+    flex-basis: 300px;
+    order: 1;
+    align-self: flex-end;
+}

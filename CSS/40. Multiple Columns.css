@@ -1,0 +1,9 @@
+div{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 5px dashed salmon;
+    column-width: 300px;
+}
+h1{
+    column-span: all;
+}

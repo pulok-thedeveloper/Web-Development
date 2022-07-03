@@ -1,0 +1,10 @@
+textarea{
+    resize: none;
+}
+div{
+    border: 2px solid goldenrod;
+    width: 400px;
+    height: 200px;
+    overflow: auto;
+    resize: both;
+}

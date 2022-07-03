@@ -1,0 +1,13 @@
+p{
+    border: 1px solid red;
+    overflow: auto;
+}
+
+#img1{
+    float: right;
+}
+
+#img2{
+    float: right;
+    clear: right;
+}

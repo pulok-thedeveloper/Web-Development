@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <from>
+        <center>
+        <fieldset>
+            <legend>Name</legend>
+            <label for="fname">First Name:</label>
+            <input type="text" autofocus id="fname">
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname">
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Password</legend>
+            <label for="pass">Password:</label>
+            <input type="password" placeholder="Password" id="pass">
+
+            <label for="cpass">Confirm Password:</label>
+            <input type="password" placeholder="Password" id="cpass">
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Email Address</legend>
+            <label for="address"> Email:</label>
+            <input type="email" placeholder="Email address" id="address">
+        </fieldset><br>
+
+
+        <fieldset>
+            <legend>Other Informations</legend>
+            
+                <div>
+                    Date of Birth:
+                    <input type="date">
+                </div><br>
+
+                <div>
+                    Gender:
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                    <input type="radio" name="gender">Other
+                </div><br>
+
+                <div>
+                    Age:
+                    <input type="number">
+                </div><br>
+
+                <div>
+                    Location:
+                    <select>
+                        <optgroup label="Division">
+                            <option value="Dhaka">Dhaka</option>
+                            <option value="Rajshahi">Rajshahi</option>
+                            <option value="Khulna">Khulna</option>
+                        </optgroup>
+                        <optgroup label="District">
+                            <option value="Barishal">Barishal</option>
+                            <option value="Rongpur">Rongpur</option>
+                        </optgroup>
+
+                    </select>
+                </div><br>
+
+                <div>
+                    Favourite Drinks:
+                    <input type="checkbox">Coffee
+                    <input type="checkbox">Cha
+                    <input type="checkbox">Milk
+                    <input type="checkbox">Juice
+                </div><br>
+
+                <div>
+                    Time:
+                    <input type="time">
+                </div><br>
+
+                <div>
+                    FB Profile link:
+                    <input type="url">
+                </div><br>
+
+                <div>
+                    Monthly income:
+                    <input type="range" min="5000" max="500000">
+                </div><br>
+
+                <div>
+                    Hidden:
+                    <input type="hidden" value="hidden">
+                </div><br>
+
+                <div>
+                    Upload a file:
+                    <input type="file" multiple>
+                </div><br>
+
+                <div>
+                    <textarea name="Description" id="" cols="30" rows="10" placeholder="Enter Description"></textarea>
+                </div><br>
+
+                <div>
+                    <input type="submit" value="Log in">
+                </div><br>
+
+                <div>
+                    <input type="reset" value="Reset">
+                </div><br>
+
+                <input type="image" src="https://freepngimg.com/thumb/categories/1428.png" width="100px">
+            
+        </fieldset>
+    </center>
+    </from>
+</body>
+
+</html>

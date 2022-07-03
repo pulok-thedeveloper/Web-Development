@@ -1,0 +1,53 @@
+@keyframes changecolor{
+    0% {background-color: salmon;}
+    25% {background-color: rgb(32, 218, 41);}
+    50% {width: 300px;}
+    75% {background-color: rgb(32, 190, 218);}
+    100% {background-color: rgb(218, 32, 218);}
+}
+
+@keyframes changeshape{
+    0% {background-color: salmon; border-radius: 0%;}
+    10% {background-color: rgb(250, 236, 114); border-radius: 10%;}
+    20% {background-color: rgb(186, 250, 114); border-radius: 20%;}
+    30% {background-color: rgb(114, 250, 159); border-radius: 30%;}
+    40% {background-color: rgb(114, 250, 227); border-radius: 40%;}
+    50% {background-color: rgb(114, 128, 250); border-radius: 50%;}
+    60% {background-color: rgb(227, 114, 250); border-radius: 40%;}
+    70% {background-color: rgb(250, 114, 171); border-radius: 30%;}
+    80% {background-color: rgb(255, 0, 0); border-radius: 20%;}
+    90% {background-color: rgb(255, 0, 157); border-radius: 10%;}
+    100% {background-color: salmon; border-radius: 0%;}
+}
+
+
+
+#animate{
+    background-color: salmon;
+    width: 200px;
+    height: 200px;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#animate2{
+    background-color: salmon;
+    width: 200px;
+    height: 200px;
+    animation-name: changecolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate-reverse; */
+    animation-timing-function: ease-out;
+}
+
+#animate3{
+    background-color: salmon;
+    width: 200px;
+    height: 200px;
+    animation-name: changeshape;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

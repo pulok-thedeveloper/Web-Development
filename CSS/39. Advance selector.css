@@ -1,0 +1,14 @@
+/* Attribute Selector */
+a[href="https://www.google.com"]{
+    color: brown;
+}
+
+/* Universel Selector */
+*{
+    margin: 0;
+    line-height: 35px;
+}
+
+h1,p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

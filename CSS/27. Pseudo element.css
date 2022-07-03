@@ -1,0 +1,18 @@
+p::first-line{
+    font-size: 30px;
+    color: red;
+
+}
+
+h1::before{
+    content:"Vugi chugi ";
+}
+
+h1::after{
+    content:" Bung Chang ";
+}
+
+::selection{
+    color: white;
+    background: red;
+}

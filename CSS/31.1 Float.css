@@ -1,0 +1,12 @@
+#img1{
+    float: left;
+    margin: 10px;
+}
+
+#img2{
+    float: right;
+    margin: 10px;
+}
+p{
+    word-break: break-all;
+}

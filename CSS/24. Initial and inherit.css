@@ -1,0 +1,17 @@
+div{
+    color:rgb(255, 0, 0);
+}
+a{
+    text-decoration: none;
+}
+#default{
+    color: rgb(255, 0, 242);
+}
+
+#initial{
+    color: initial;
+}
+
+#inherit{
+    color: inherit;
+}

@@ -1,0 +1,14 @@
+ul{
+    list-style-image: url('Media/Sprint-logo-design-Codesign-agency\ \(1\).png');
+    list-style-position: inside;
+    
+}
+
+ol{
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+}
+
+li{
+    border: 2px solid gold;
+}

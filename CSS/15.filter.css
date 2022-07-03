@@ -1,0 +1,7 @@
+#img1{
+    filter: brightness(120%), contrast(150%), saturate(30%);
+}
+
+#img2{
+    filter: hue-rotate(90deg);
+}
