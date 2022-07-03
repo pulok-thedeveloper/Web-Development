@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <h2>Javascript String Methods</h2>
+    <p>The slice() method extract a part of a striing and returns the extracted parts in a new string.</p>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+
+
+    <script>
+
+        let str = "Apple, Banana, Grape"
+        document.getElementById("demo").innerHTML = str.slice(7,13);
+        document.getElementById("demo1").innerHTML = str.slice(-13,-7);
+        let part = str.slice(7);
+        document.getElementById("demo2").innerHTML = part;
+        document.getElementById("demo3").innerHTML = str.slice(-13);
+    </script>
+
+    <!-- substring() is similar to slice().
+
+    The difference is that start and end values less than 0 are treated as 0 in substring(). -->
+</body>
+</html>

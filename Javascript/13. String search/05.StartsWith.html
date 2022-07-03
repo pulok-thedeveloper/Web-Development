@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript String Search</title>
+</head>
+<body>
+    <h2>Javascript String Search</h2>
+    <p>Check if a string starts with "Hello":</p>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+    <script>
+        let text = "Hello world, welcome to the universe.";
+        document.getElementById("demo").innerHTML = text.startsWith("Hello");
+        document.getElementById("demo1").innerHTML = text.startsWith("world", 6)
+    </script>
+</body>
+</html>

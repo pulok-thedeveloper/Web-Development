@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript String Search</title>
+</head>
+<body>
+    <h2>Javascript String Search</h2>
+    <p>The indexOf() method returns the position of the first occurrence of a specified text:</p>
+
+    <p id="demo"></p>
+    <p id="demo1"></p>
+
+    <script>
+        let str = "Please close the door close";
+        document.getElementById("demo").innerHTML = str.indexOf("close");
+        document.getElementById("demo1").innerHTML = str.lastIndexOf("close");
+    </script>
+</body>
+</html>
