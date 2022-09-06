@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour of DOM</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="dom.js"></script>
+  </head>
+  <body>
+    <!-- DOM-Document Object Model -->
+    <header>
+      <h1>Welcome to my DOM</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis a rem
+        laborum repudiandae architecto non debitis quibusdam voluptate alias
+        dolorum dolores tempora voluptatibus, ab, accusamus veniam placeat
+        eligendi fugit perspiciatis.
+      </p>
+    </header>
+    <main id="main-container">
+      <section>
+        <h1>My awesome DOM BABA</h1>
+        <ul>
+          <li>Jalai Set</li>
+          <li id="rap_song">1230 CLASSIC</li>
+          <li>MARATTOK MADARCHOD</li>
+        </ul>
+      </section>
+
+      <section id="fruits-container">
+        <h1>Fruits</h1>
+        <ul>
+          <li class="fruit-name">Banana</li>
+          <li class="fruit-name">Grape</li>
+          <li>Pomegranate</li>
+        </ul>
+      </section>
+
+      <section id="places-container">
+        <h1>Places I like to visit</h1>
+        <ul>
+          <li>Bandarban</li>
+          <li>Cox's Bazar</li>
+          <li>Khagrachori</li>
+        </ul>
+      </section>
+    </main>
+
+    <script>
+      // getElementsByTagName
+      const liCollection = document.getElementsByTagName("li");
+      for (const li of liCollection) {
+        console.log(li.innerText);
+      }
+
+      // getElementById
+      console.log(document.getElementById("rap_song").innerHTML);
+
+      // getElementsByClassName
+      const fruits = document.getElementsByClassName("fruit_name");
+      for (let fruit of fruits) {
+        console.log(fruit.innerText);
+      }
+
+      // querySelectorAll
+      const someLi = document.querySelectorAll(".places-container li");
+      for (const li of someLi) {
+        console.log(li.innerHTML);
+      }
+
+      // querySelector
+      const firstLi = document.querySelector("#places-container li");
+      console.log(firstLi.innerText);
+
+      // Dynamic Style
+      document.getElementById("rap_song").style.backgroundColor = "yellow";
+
+      // Nodelist
+      const placesContainer = document.getElementById("places-container");
+      console.log(placesContainer.firstChild);
+      console.log(placesContainer.lastChild);
+      console.log(placesContainer.childNodes);
+      console.log(placesContainer.childNodes[1]);
+      console.log(placesContainer.childNodes[3].childNodes);
+      console.log(placesContainer.firstChild.nextSibling);
+
+      // Create and Append Elements
+
+      const placesUl = document.querySelector("#places-container ul");
+
+      const newLi = document.createElement("li");
+      newLi.innerText = "RangaMati";
+
+      const newLi2 = document.createElement("li");
+      newLi2.innerText = "SaintMartin";
+
+      placesUl.appendChild(newLi);
+      placesUl.appendChild(newLi2);
+
+      // Full Section Create and Append Elements
+      const mainContainer = document.getElementById("main-container");
+
+      const newSection = document.createElement("section");
+
+      const h1 = document.createElement("h1");
+      h1.innerText = "My Food List";
+      newSection.appendChild(h1);
+
+      const ul = document.createElement("ul");
+      const li1 = document.createElement("li");
+      li1.innerText = "Burger";
+      ul.appendChild(li1);
+
+      const li2 = document.createElement("li");
+      li2.innerText = "Pizza";
+      ul.appendChild(li2);
+
+      const li3 = document.createElement("li");
+      li3.innerText = "Shawrma";
+      ul.appendChild(li3);
+      newSection.appendChild(ul);
+
+      mainContainer.appendChild(newSection);
+
+      // Full Section Create and Append Elements(2nd Method)
+      const sectionDress = document.createElement("section");
+      sectionDress.innerHTML = `
+      <h1>My Dresses</h1>
+        <ul>
+          <li>T-shirt</li>
+          <li>Jeans Pant</li>
+          <li>Shoes</li>
+        </ul>
+      `;
+      mainContainer.appendChild(sectionDress);
+    </script>
+
+    <!-- Section Style -->
+    <script src="styleIn.js"></script>
+  </body>
+</html>

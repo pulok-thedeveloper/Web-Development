@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Comment</title>
+  </head>
+  <body>
+    <h1>Please add your comment</h1>
+    <div id="comment-container">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut placeat
+        similique vitae pariatur unde praesentium dolorem ea ratione vero
+        aspernatur?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+        repellendus voluptates quis nihil. Fuga doloribus dignissimos,
+        voluptatibus labore mollitia facere sed aspernatur nesciunt tenetur
+        vero! Reprehenderit amet iure odio et? Labore vel exercitationem natus
+        voluptates?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
+        tempora officia, ipsa voluptates unde ratione.
+      </p>
+    </div>
+    <div>
+      <textarea name="" id="new-comment" cols="60" rows="5"></textarea> <br />
+      <button id="post-btn">Post</button>
+    </div>
+
+    <script>
+      document
+        .getElementById("post-btn")
+        .addEventListener("click", function () {
+          const commentBox = document.getElementById("new-comment");
+          const newComment = commentBox.value;
+          const commentContainer = document.getElementById("comment-container");
+          const p = document.createElement("p");
+          p.innerText = newComment;
+          commentContainer.appendChild(p);
+
+          commentBox.value = "";
+        });
+    </script>
+  </body>
+</html>

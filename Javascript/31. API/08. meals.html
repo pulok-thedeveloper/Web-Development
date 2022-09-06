@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I am Hungry</title>
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="mx-5">
+    <header>
+      <h1 class="text-center text-warning">Exploring Food</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Meal Deatils</h2>
+        <div id="detail-container" style="width: 25rem"></div>
+      </section>
+      <section>
+        <div class="d-flex my-5" role="search">
+          <input
+            id="search-field"
+            class="form-control me-2"
+            type="search"
+            placeholder="Search tour food"
+            aria-label="Search"
+          />
+          <button
+            onclick="searchFood()"
+            class="btn btn-outline-success"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </section>
+      <section>
+        <h2>My Meals</h2>
+        <div id="meal-container" class="row row-cols-1 row-cols-md-3 g-4"></div>
+      </section>
+    </main>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="08. meals.js"></script>
+  </body>
+</html>

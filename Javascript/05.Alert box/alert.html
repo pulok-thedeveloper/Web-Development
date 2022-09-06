@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script>
-
-        var a=50;
-        var b=70;
-
-        if(a>b)
-        {
-        alert("Value of a:"+a);
+      console.log("alert connected");
+      const showAlert = () => {
+        const num = Math.random() * 10;
+        console.log(num);
+        if (num < 5) {
+          alert("Number is less then 5");
         }
-        else{
-        alert("Value of b:"+b);
-        }
-
-
+      };
     </script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <button onclick="showAlert()">Load alert</button>
+  </body>
 </html>
